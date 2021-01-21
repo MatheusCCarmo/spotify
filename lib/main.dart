@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:spotify/screens/home_screen.dart';
 import 'package:spotify/screens/search_screen.dart';
 import 'package:spotify/util/CustomColors.dart';
 
@@ -42,9 +43,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   static List<Widget> _widgetOptions = <Widget>[
-    Text(
-      'Home',
-    ),
+    HomeScreen(),
     SearchScreen(),
     Text(
       'Your Library',
@@ -60,10 +59,6 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-          title: Text(
-        _titleOptions.elementAt(_selectedIndex),
-      )),
       backgroundColor: CustomColors().black,
       body: _widgetOptions.elementAt(_selectedIndex),
       bottomNavigationBar: BottomNavigationBar(
