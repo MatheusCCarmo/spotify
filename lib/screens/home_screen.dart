@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:spotify/widgets/home_widgets/genre_widget.dart';
 import 'package:spotify/widgets/home_widgets/recently_played_widget.dart';
 import 'package:spotify/widgets/home_widgets/shortcut_widget.dart';
 
@@ -28,7 +29,12 @@ class HomeScreen extends StatelessWidget {
             ],
           ),
           ShortcutWidget(),
+          SizedBox(height: 30),
           RecentlyPlayedWidget(),
+          SizedBox(height: 30),
+          GenreWidget('Rock'),
+          SizedBox(height: 30),
+          GenreWidget('Pop'),
         ],
       ),
     );

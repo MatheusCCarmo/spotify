@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:spotify/screens/home_screen.dart';
+import 'package:spotify/screens/library_screen.dart';
 import 'package:spotify/screens/search_screen.dart';
 import 'package:spotify/util/CustomColors.dart';
 
@@ -45,9 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
   static List<Widget> _widgetOptions = <Widget>[
     HomeScreen(),
     SearchScreen(),
-    Text(
-      'Your Library',
-    ),
+    LibraryScreen(),
   ];
 
   static List<String> _titleOptions = <String>[

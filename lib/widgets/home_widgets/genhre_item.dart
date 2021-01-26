@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:spotify/util/CustomColors.dart';
 
-class RecentlyPlayedItem extends StatelessWidget {
+class GenreItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(

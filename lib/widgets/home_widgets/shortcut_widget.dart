@@ -1,14 +1,59 @@
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:spotify/widgets/home_widgets/shortcut_item.dart';
 
 class ShortcutWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: GridView.builder(
-        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(),
-        itemCount: 6,
-        itemBuilder: (context, index) {},
+      height: 200,
+      child: GridView.count(
+        crossAxisCount: 2,
+        childAspectRatio: 3,
+        crossAxisSpacing: 8,
+        mainAxisSpacing: 8,
+        children: [
+          ShortcutItem(),
+          ShortcutItem(),
+          ShortcutItem(),
+          ShortcutItem(),
+          ShortcutItem(),
+          ShortcutItem(),
+        ],
       ),
     );
   }
 }
+
+// class ShortcutWidget extends StatelessWidget {
+//   @override
+//   Widget build(BuildContext context) {
+//     return SizedBox(
+//       SizedBox(
+//         height: 200,
+//         child: Column(
+//           children: [
+//             Row(
+//               children: [
+//                 Text('teste'),
+//                 Text('teste'),
+//               ],
+//             ),
+//             Row(
+//               children: [
+//                 Text('teste'),
+//                 Text('teste'),
+//               ],
+//             ),
+//             Row(
+//               children: [
+//                 Text('teste'),
+//                 Text('teste'),
+//               ],
+//             ),
+//           ],
+//         ),
+//       ),
+//     );
+//   }
+// }
