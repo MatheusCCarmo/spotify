@@ -10,7 +10,7 @@ class HomeScreen extends StatelessWidget {
       child: Column(
         children: [
           SizedBox(
-            height: 50,
+            height: 20,
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -19,7 +19,8 @@ class HomeScreen extends StatelessWidget {
                 "Good morning",
                 style: TextStyle(
                   color: Colors.white,
-                  fontSize: 26,
+                  fontSize: 22,
+                  fontWeight: FontWeight.w700,
                 ),
               ),
               Icon(
@@ -28,6 +29,7 @@ class HomeScreen extends StatelessWidget {
               )
             ],
           ),
+          SizedBox(height: 15),
           ShortcutWidget(),
           SizedBox(height: 30),
           RecentlyPlayedWidget(),

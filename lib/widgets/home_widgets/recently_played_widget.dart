@@ -11,14 +11,15 @@ class RecentlyPlayedWidget extends StatelessWidget {
           child: Text(
             'Recently played',
             style: TextStyle(
-              color: Colors.white,
-              fontSize: 26,
+              color: Theme.of(context).textTheme.headline5.color,
+              fontSize: 22,
+              fontWeight: FontWeight.w700,
             ),
           ),
         ),
-        SizedBox(height: 10),
+        SizedBox(height: 15),
         Container(
-          height: 150,
+          height: 170,
           child: ListView(
             scrollDirection: Axis.horizontal,
             children: <Widget>[

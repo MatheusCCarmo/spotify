@@ -11,13 +11,19 @@ class GenreItem extends StatelessWidget {
         children: [
           Image.network(
             "https://spassodourado.com.br/wp-content/uploads/2015/01/default-placeholder.png",
-            // fit: BoxFit.fill,
           ),
-          Container(
-            alignment: Alignment.centerLeft,
-            child: Text(
-              'teste teste',
-              style: TextStyle(color: CustomColors().white),
+          SizedBox(
+            height: 8,
+          ),
+          Expanded(
+            child: Container(
+              alignment: Alignment.topLeft,
+              child: Text(
+                'teste ttetstet etet ete teeste',
+                style: TextStyle(
+                  color: Theme.of(context).textTheme.headline6.color,
+                ),
+              ),
             ),
           ),
         ],

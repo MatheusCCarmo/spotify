@@ -16,13 +16,14 @@ class GenreWidget extends StatelessWidget {
             genreName,
             style: TextStyle(
               color: Colors.white,
-              fontSize: 26,
+              fontSize: 22,
+              fontWeight: FontWeight.w700,
             ),
           ),
         ),
-        SizedBox(height: 10),
+        SizedBox(height: 15),
         Container(
-          height: 150,
+          height: 170,
           child: ListView(
             scrollDirection: Axis.horizontal,
             children: <Widget>[

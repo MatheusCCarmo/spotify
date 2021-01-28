@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:spotify/util/CustomColors.dart';
 
 class SearchScreen extends StatefulWidget {
   @override
@@ -9,20 +10,50 @@ class _SearchScreenState extends State<SearchScreen> {
   @override
   Widget build(BuildContext context) {
     return Column(
-      mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
+        SizedBox(
+          height: 20,
+        ),
         Container(
-          margin: EdgeInsets.all(8),
-          height: 25,
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(5),
-            color: Colors.white,
+          alignment: Alignment.centerLeft,
+          child: Text(
+            'Search',
+            style: TextStyle(
+                fontSize: 28,
+                color: CustomColors().white,
+                fontWeight: FontWeight.bold),
           ),
-          child: TextField(
-            decoration: InputDecoration(
-              labelText: 'Search',
+        ),
+        SizedBox(
+          height: 15,
+        ),
+        Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            Container(
+              height: 35,
+              width: MediaQuery.of(context).size.width - 65,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(5),
+                color: Colors.white,
+              ),
+              child: TextField(
+                decoration: InputDecoration(
+                    prefixIcon: Icon(
+                      Icons.search,
+                      color: Colors.black,
+                    ),
+                    labelText: 'Artists, musics or podcasts',
+                    labelStyle: TextStyle(
+                      color: Colors.black,
+                    )),
+              ),
             ),
-          ),
+            InkWell(
+              child: Icon(Icons.camera_alt_outlined),
+              onTap: () {},
+            )
+          ],
         ),
         Center(
           child: Column(

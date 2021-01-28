@@ -25,7 +25,7 @@ class ShortcutItem extends StatelessWidget {
                 child: Text(
                   'teste teste teste',
                   style: TextStyle(
-                    color: CustomColors().white,
+                    color: Theme.of(context).textTheme.headline5.color,
                   ),
                 ),
               ),

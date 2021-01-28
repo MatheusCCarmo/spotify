@@ -6,18 +6,23 @@ class RecentlyPlayedItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       margin: EdgeInsets.only(right: 10),
-      width: 120,
+      width: 110,
       child: Column(
         children: [
           Image.network(
             "https://spassodourado.com.br/wp-content/uploads/2015/01/default-placeholder.png",
             // fit: BoxFit.fill,
           ),
-          Container(
-            alignment: Alignment.centerLeft,
-            child: Text(
-              'teste teste',
-              style: TextStyle(color: CustomColors().white),
+          SizedBox(
+            height: 8,
+          ),
+          Expanded(
+            child: Container(
+              alignment: Alignment.topLeft,
+              child: Text(
+                'teste teste',
+                style: TextStyle(color: CustomColors().white),
+              ),
             ),
           ),
         ],
