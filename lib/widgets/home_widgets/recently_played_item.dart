@@ -20,7 +20,7 @@ class RecentlyPlayedItem extends StatelessWidget {
             child: Container(
               alignment: Alignment.topLeft,
               child: Text(
-                'teste teste',
+                'test test',
                 style: TextStyle(color: CustomColors().white),
               ),
             ),

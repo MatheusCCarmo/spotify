@@ -19,11 +19,11 @@ class MyApp extends StatelessWidget {
           accentColor: CustomColors().green,
           visualDensity: VisualDensity.adaptivePlatformDensity,
           textTheme: TextTheme(
-            headline6: TextStyle(color: CustomColors().lighGrey),
+            headline6: TextStyle(color: CustomColors().lightGrey),
             headline5: TextStyle(color: CustomColors().white),
             subtitle1: TextStyle(color: CustomColors().grey),
           ),
-          iconTheme: IconThemeData(color: CustomColors().lighGrey),
+          iconTheme: IconThemeData(color: CustomColors().lightGrey),
           appBarTheme: AppBarTheme(color: CustomColors().black)),
       home: MyHomePage(),
     );

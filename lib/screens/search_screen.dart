@@ -55,6 +55,9 @@ class _SearchScreenState extends State<SearchScreen> {
             )
           ],
         ),
+        SizedBox(
+          height: 70,
+        ),
         Center(
           child: Column(
             children: [

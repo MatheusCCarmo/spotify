@@ -23,7 +23,7 @@ class ShortcutItem extends StatelessWidget {
                 margin: EdgeInsets.only(left: 10),
                 alignment: Alignment.center,
                 child: Text(
-                  'teste teste teste',
+                  'test test test',
                   style: TextStyle(
                     color: Theme.of(context).textTheme.headline5.color,
                   ),

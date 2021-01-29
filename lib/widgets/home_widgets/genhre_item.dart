@@ -19,7 +19,7 @@ class GenreItem extends StatelessWidget {
             child: Container(
               alignment: Alignment.topLeft,
               child: Text(
-                'teste ttetstet etet ete teeste',
+                'test ttetstet etet ete teeste',
                 style: TextStyle(
                   color: Theme.of(context).textTheme.headline6.color,
                 ),

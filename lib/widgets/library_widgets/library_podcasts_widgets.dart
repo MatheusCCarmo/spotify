@@ -9,7 +9,7 @@ class LibraryPodcastsWidget extends StatefulWidget {
 class _LibraryMusicWidgetState extends State<LibraryPodcastsWidget> {
   Color selectedColor = CustomColors().white;
 
-  Color unselectedColor = CustomColors().lighGrey;
+  Color unselectedColor = CustomColors().lightGrey;
 
   List<bool> selectItems = [true, false, false];
 

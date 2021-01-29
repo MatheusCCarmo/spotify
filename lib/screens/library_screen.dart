@@ -10,7 +10,7 @@ class LibraryScreen extends StatefulWidget {
 
 class _LibraryScreenState extends State<LibraryScreen> {
   Color selectedColor = CustomColors().white;
-  Color unselectedColor = CustomColors().lighGrey;
+  Color unselectedColor = CustomColors().lightGrey;
   List<bool> selectedItem = [true, false];
 
   @override

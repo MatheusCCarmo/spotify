@@ -12,7 +12,7 @@ class LibraryMusicWidget extends StatefulWidget {
 class _LibraryMusicWidgetState extends State<LibraryMusicWidget> {
   Color selectedColor = CustomColors().white;
 
-  Color unselectedColor = CustomColors().lighGrey;
+  Color unselectedColor = CustomColors().lightGrey;
 
   List<bool> selectItems = [true, false, false];
 
@@ -36,7 +36,7 @@ class _LibraryMusicWidgetState extends State<LibraryMusicWidget> {
                 ? Border(
                     bottom: BorderSide(
                       color: Theme.of(context).accentColor,
-                      width: 3,
+                      width: 2,
                     ),
                   )
                 : Border()),

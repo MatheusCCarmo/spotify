@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 
-class MusicPlaylistItem extends StatelessWidget {
+class MusicAlbumsItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
       height: 58,
       margin: EdgeInsets.only(
-        top: 10,
+        top: 8,
+        bottom: 8,
         right: 10,
       ),
       child: Row(
@@ -18,17 +19,24 @@ class MusicPlaylistItem extends StatelessWidget {
             width: 10,
           ),
           Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                'teste',
+                'test',
                 style: TextStyle(
+                    fontWeight: FontWeight.w700,
                     color: Theme.of(context).textTheme.headline5.color),
               ),
+              SizedBox(
+                height: 5,
+              ),
               Text(
-                'teste',
+                'test',
                 style: TextStyle(
-                    color: Theme.of(context).textTheme.headline6.color),
+                  fontSize: 12,
+                  color: Theme.of(context).textTheme.headline6.color,
+                ),
               ),
             ],
           ),

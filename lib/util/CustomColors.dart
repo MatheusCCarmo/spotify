@@ -6,6 +6,6 @@ class CustomColors {
   Color black = Color(0xff191414);
   Color grey = Color(0xff535353);
   Color darkGrey = Color(0xff212121);
-  Color lighGrey = Color(0xffb3b3b3);
+  Color lightGrey = Color(0xffb3b3b3);
   CustomColors();
 }
