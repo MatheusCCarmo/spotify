@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:spotify/widgets/home_widgets/genhre_item.dart';
+import 'package:spotify/widgets/home_widgets/genre_item.dart';
 
 class GenreWidget extends StatelessWidget {
   String genreName;

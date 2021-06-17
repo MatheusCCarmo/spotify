@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:spotify/util/CustomColors.dart';
 
 class GenreItem extends StatelessWidget {
   @override
@@ -9,8 +8,7 @@ class GenreItem extends StatelessWidget {
       width: 120,
       child: Column(
         children: [
-          Image.asset(
-          'assets/placeholder.png'),
+          Image.asset('assets/placeholder.png'),
           SizedBox(
             height: 8,
           ),
