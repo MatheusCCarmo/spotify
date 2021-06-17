@@ -12,9 +12,8 @@ class MusicPlaylistsItem extends StatelessWidget {
       ),
       child: Row(
         children: [
-          Image.network(
-            "https://spassodourado.com.br/wp-content/uploads/2015/01/default-placeholder.png",
-          ),
+          Image.asset(
+              'assets/placeholder.png'),
           SizedBox(
             width: 10,
           ),

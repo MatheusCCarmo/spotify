@@ -9,10 +9,8 @@ class RecentlyPlayedItem extends StatelessWidget {
       width: 110,
       child: Column(
         children: [
-          Image.network(
-            "https://spassodourado.com.br/wp-content/uploads/2015/01/default-placeholder.png",
-            // fit: BoxFit.fill,
-          ),
+          Image.asset(
+          'assets/placeholder.png'),
           SizedBox(
             height: 8,
           ),

@@ -14,9 +14,8 @@ class MusicArtistsItem extends StatelessWidget {
       child: Row(
         children: [
           ClipOval(
-            child: Image.network(
-              "https://spassodourado.com.br/wp-content/uploads/2015/01/default-placeholder.png",
-            ),
+            child: Image.asset(
+                'assets/placeholder.png'),
           ),
           SizedBox(
             width: 10,

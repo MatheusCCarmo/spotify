@@ -9,9 +9,8 @@ class GenreItem extends StatelessWidget {
       width: 120,
       child: Column(
         children: [
-          Image.network(
-            "https://spassodourado.com.br/wp-content/uploads/2015/01/default-placeholder.png",
-          ),
+          Image.asset(
+          'assets/placeholder.png'),
           SizedBox(
             height: 8,
           ),

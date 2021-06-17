@@ -6,7 +6,7 @@ class ShortcutWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 200,
+      height: 210,
       child: GridView.count(
         crossAxisCount: 2,
         childAspectRatio: 3,

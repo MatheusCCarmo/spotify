@@ -15,8 +15,8 @@ class ShortcutItem extends StatelessWidget {
             ClipRRect(
               borderRadius: BorderRadius.only(
                   bottomLeft: Radius.circular(5), topLeft: Radius.circular(5)),
-              child: Image.network(
-                  "https://spassodourado.com.br/wp-content/uploads/2015/01/default-placeholder.png"),
+              child: Image.asset(
+                  'assets/placeholder.png'),
             ),
             Expanded(
               child: Container(
