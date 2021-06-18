@@ -13,5 +13,3 @@ This project is only for study purposes.
 ### Library Screen
 <img src="https://user-images.githubusercontent.com/43590889/122572046-c0158280-d023-11eb-8ccb-47c2e7d1d7ca.png" width="400" height="711">
 
-
-<img src="" width="400" height="711">
