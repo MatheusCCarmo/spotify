@@ -1,4 +1,4 @@
-# Spotify-Interface
+# Spotify Interface with Flutter
 
 This project is only for study purposes.
 
