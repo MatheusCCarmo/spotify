@@ -2,15 +2,13 @@
 
 This project is only for study purposes.
 
-## Getting Started
+## Screenshots
 
-This project is a starting point for a Flutter application.
+### Home Screen
+<img src="https://user-images.githubusercontent.com/43590889/122571883-978d8880-d023-11eb-9064-c308cf0eb3a1.png" width="400" height="711">
 
-A few resources to get you started if this is your first Flutter project:
+### Search Screen
+<img src="https://user-images.githubusercontent.com/43590889/122572143-d6234300-d023-11eb-8e11-8df2b7fac2d7.png" width="400" height="711">
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Library Screen
+<img src="https://user-images.githubusercontent.com/43590889/122572046-c0158280-d023-11eb-8ccb-47c2e7d1d7ca.png" width="400" height="711">
